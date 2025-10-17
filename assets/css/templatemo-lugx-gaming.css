@@ -285,7 +285,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #0071f8 !important;
+  background-color: #580000 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
@@ -744,7 +744,7 @@ Banner Style
   right: 20px;
   top: 20px;
   border-radius: 25px;
-  background-color: #008af8;
+  background-color: #9c2e2e;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
@@ -757,7 +757,7 @@ Banner Style
   left: -25px;
   bottom: -25px;
   border-radius: 50%;
-  background-color: #ee626b;
+  background-color: #8a1515;
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 700;
@@ -767,8 +767,11 @@ Banner Style
   height: 100px;
   text-align: center;
   line-height: 100px;
+  transition: transform 0.5s ease;
 }
-
+.main-banner .right-image span.offer:hover{
+  transform: scale(1.2)
+}
 
 
 /* 
